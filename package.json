@@ -1,0 +1,23 @@
+{
+  "name": "jk_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pkg": {
+    "assets": ["!config.json"]
+  },
+  "keywords": [],
+  "author": "Josakko",
+  "license": "ISC",
+  "dependencies": {
+    "log": "^6.3.1",
+    "log4js": "^6.8.0",
+    "minecraft-data": "^3.30.0",
+    "mineflayer": "^4.8.1",
+    "mineflayer-pathfinder": "^2.4.2"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "bot-account": {
+    "username": "JK-Bot"
+  },
+
+  "server": {
+    "ip": "ip of your server here",
+    "port": 10000,
+    "version": "1.19"
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": "12345678"
+    },
+
+    "anti-afk": {
+      "enabled": false,
+      "sneak": false,
+      "jump": true,
+      "rotate": true,
+
+      "hit": {
+        "enabled": false,
+        "delay": 100,
+        "attack-mobs": false
+      },
+
+      "loop-walk": {
+        "enabled": false,
+        "radius": 5
+      }
+    },
+
+    "chat-messages": {
+      "enabled": false,
+      "repeat": true,
+      "repeat-delay": 30,
+
+      "messages": [
+        "Hello, I am minecraft afk bot made by Josakko"
+      ]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 2500
+  }
+}
