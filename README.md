@@ -1,7 +1,7 @@
-## JK_MinecraftAfkBot
+# JK_MinecraftAfkBot
 Minecraft bot that you can use for different purposes.
 
-# Usage 
+## Usage 
 Download executable file [here](https://discord.gg/xgET5epJE6).
 
 ## Need Help?
