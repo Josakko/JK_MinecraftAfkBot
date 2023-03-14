@@ -41,7 +41,7 @@
     },
 
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": true,
       "repeat-delay": 30,
 
@@ -49,7 +49,17 @@
         "Hello, I am minecraft afk bot made by Josakko"
       ]
     },
+    
+    "commands": {
+      "enabled": false,
+      "repeat": true,
+      "repeat-delay": 30,
 
+      "command": [
+        "your command here with out '/'"
+      ]
+    },
+    
     "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2500
