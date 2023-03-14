@@ -78,6 +78,29 @@ function createBot() {
          }
       }
 
+      if (config.utils['commands'].enabled) {
+         logger.info(`Commands enabled!`);   
+
+         let command = config.utils['commands']['command'];
+
+         if (config.utils['commands'].repeat) {
+            let delay = config.utils['commands']['repeat-delay'];
+            let i = 0;
+
+            setInterval(() => {
+               bot.chat(`/${command[i]}`);
+
+               if (i + 1 === command.length) {
+                  i = 0;
+               } else i++;
+            }, delay * 1000);
+         } else {
+            command.forEach((cmd) => {
+               bot.chat(cmd);
+            });
+         }
+      }
+
       const pos = config.position;
 
       if (config.position.enabled) {
