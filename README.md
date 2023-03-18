@@ -2,7 +2,7 @@
 Minecraft bot that you can use for different purposes.
 
 ## Usage 
-Download executable file [here]().
+Download executable file [here](). (not made yet)
 
 ## Need Help?
 If you need help contact me on my [discord server](https://discord.gg/xgET5epJE6).
